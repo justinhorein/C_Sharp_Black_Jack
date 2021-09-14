@@ -3,3 +3,9 @@ C:\Users\Student\Desktop\Tech Academy\Tech_Academy_Basic_C_Sharp\ConsoleApp8\Cas
 C:\Users\Student\Desktop\Tech Academy\Tech_Academy_Basic_C_Sharp\ConsoleApp8\Casino\obj\Debug\Casino.dll
 C:\Users\Student\Desktop\Tech Academy\Tech_Academy_Basic_C_Sharp\ConsoleApp8\Casino\obj\Debug\Casino.pdb
 C:\Users\Student\Desktop\Tech Academy\Tech_Academy_Basic_C_Sharp\ConsoleApp8\Casino\obj\Debug\Casino.csprojAssemblyReference.cache
+C:\Users\justi\Documents\github\TwentyOneOld\Casino\bin\Debug\Casino.dll
+C:\Users\justi\Documents\github\TwentyOneOld\Casino\bin\Debug\Casino.pdb
+C:\Users\justi\Documents\github\TwentyOneOld\Casino\obj\Debug\Casino.csprojAssemblyReference.cache
+C:\Users\justi\Documents\github\TwentyOneOld\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
+C:\Users\justi\Documents\github\TwentyOneOld\Casino\obj\Debug\Casino.dll
+C:\Users\justi\Documents\github\TwentyOneOld\Casino\obj\Debug\Casino.pdb

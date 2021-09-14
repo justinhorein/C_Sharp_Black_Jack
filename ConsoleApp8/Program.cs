@@ -84,10 +84,10 @@ namespace ConsoleApp8
 
         private static void UpdateDbWithException(Exception ex)
         {
-            string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = TwentyOneGame; 
-                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
-                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite;
-                                        MultiSubnetFailover = False";
+            string connectionString = @"Data Source = DESKTOP-6N9G84T; Initial Catalog = TwentyOneGame;
+                                        Integrated Security = False; Connect Timeout = 30; Encrypt = False;
+                                        TrustServerCertificate = True; ApplicationIntent = ReadWrite;
+                                        MultiSubnetFailover = False; Trusted_Connection=True;";
             string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
                                     (@ExceptionType, @ExceptionMessage, @TimeStamp)";
 
@@ -109,10 +109,10 @@ namespace ConsoleApp8
         }
         private static List<ExceptionEntity> ReadExceptions()
         {
-            string connectionString = @"Data Source = (localdb)\ProjectsV13; Initial Catalog = TwentyOneGame; 
-                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
-                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite;
-                                        MultiSubnetFailover = False";
+            string connectionString = @"Data Source = DESKTOP-6N9G84T; Initial Catalog = TwentyOneGame;
+                                        Integrated Security = False; Connect Timeout = 30; Encrypt = False;
+                                        TrustServerCertificate = True; ApplicationIntent = ReadWrite;
+                                        MultiSubnetFailover = False; Trusted_Connection=True;";
 
             string queryString = @"Select Id, ExceptionType, ExceptionMessage, Timestamp From Exceptions";
 

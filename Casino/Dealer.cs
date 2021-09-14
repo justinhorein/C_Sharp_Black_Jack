@@ -18,7 +18,7 @@ namespace Casino
             Hand.Add(Deck.Cards.First());
             string card = string.Format(Deck.Cards.First().ToString() + "\n");
             Console.WriteLine(card);
-            using (StreamWriter file = new StreamWriter(@"C:\Users\Student\Desktop\Tech Academy\log.txt", true))
+            using (StreamWriter file = new StreamWriter(@"log.txt", true))
             {
                 file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
